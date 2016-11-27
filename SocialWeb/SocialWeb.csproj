@@ -207,6 +207,10 @@
     <Compile Include="Migrations\201611271223414_SocialWeb1.Designer.cs">
       <DependentUpon>201611271223414_SocialWeb1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611271228360_SocialWeb11.cs" />
+    <Compile Include="Migrations\201611271228360_SocialWeb11.Designer.cs">
+      <DependentUpon>201611271228360_SocialWeb11.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -290,6 +294,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201611271223414_SocialWeb1.resx">
       <DependentUpon>201611271223414_SocialWeb1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611271228360_SocialWeb11.resx">
+      <DependentUpon>201611271228360_SocialWeb11.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

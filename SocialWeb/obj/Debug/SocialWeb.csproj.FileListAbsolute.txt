@@ -82,3 +82,4 @@ C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.d
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.pdb
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.Migrations.SocialWeb1.resources
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.csproj.GenerateResource.Cache
+C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.Migrations.SocialWeb11.resources
