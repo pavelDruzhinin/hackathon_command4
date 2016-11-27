@@ -13,7 +13,6 @@ namespace SocialWeb.DataAccess.Mapping
         {
             ToTable("Messages");
             HasKey(x => x.Id);
-            //HasMany(x => x.);
         }
     }
 }
