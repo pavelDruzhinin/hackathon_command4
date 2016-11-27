@@ -13,7 +13,7 @@ namespace SocialWeb.DataAccess.Mapping
         {
             ToTable("Users");
             HasKey(x => x.Id);
-            HasRequired(x => x.Messages);
+            //HasRequired(x => x.Messages);
             
         }
     }
