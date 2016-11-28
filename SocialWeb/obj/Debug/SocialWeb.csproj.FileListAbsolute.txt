@@ -1,4 +1,3 @@
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.csprojResolveAssemblyReference.cache
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\ApplicationInsights.config
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\roslyn\csc.exe
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -83,3 +82,4 @@ C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.p
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.Migrations.SocialWeb1.resources
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.csproj.GenerateResource.Cache
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.Migrations.SocialWeb11.resources
+C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.csprojResolveAssemblyReference.cache

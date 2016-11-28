@@ -7,14 +7,14 @@ using System.Web;
 
 namespace SocialWeb.DataAccess.Mapping
 {
-    public class UserMap : EntityTypeConfiguration<User>
+    public class DialogMap : EntityTypeConfiguration<Dialog>
     {
-        public UserMap()
+        public DialogMap()
         {
-            ToTable("Users");
+            ToTable("Dialogs");
             HasKey(x => x.Id);
-            //HasMany(x => x.Message);
-            HasRequired(x => x.Dialog);
+            HasMany(x => x.Messages);
+            HasRequired(x => x.Users);
         }
     }
 }
