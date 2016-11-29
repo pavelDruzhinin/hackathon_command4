@@ -1,4 +1,51 @@
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\ApplicationInsights.config
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\roslyn\csc.exe
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\roslyn\System.Collections.Immutable.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\roslyn\vbc.exe
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\roslyn\VBCSCompiler.exe
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\roslyn\VBCSCompiler.exe.config
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\SocialWeb.dll.config
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\SocialWeb.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\SocialWeb.pdb
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\Antlr3.Runtime.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\EntityFramework.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\EntityFramework.SqlServer.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\Microsoft.Web.Infrastructure.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\Newtonsoft.Json.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\System.Web.Helpers.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\System.Web.Mvc.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\System.Web.Optimization.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\System.Web.Razor.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\System.Web.WebPages.Deployment.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\System.Web.WebPages.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\System.Web.WebPages.Razor.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\WebGrease.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\EntityFramework.xml
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\EntityFramework.SqlServer.xml
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\System.Web.Helpers.xml
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\System.Web.Mvc.xml
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\System.Web.Optimization.xml
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\System.Web.Razor.xml
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\System.Web.WebPages.xml
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\System.Web.WebPages.Deployment.xml
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\System.Web.WebPages.Razor.xml
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\Antlr3.Runtime.pdb
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\bin\Newtonsoft.Json.xml
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\obj\Debug\SocialWeb.Migrations.InitialCreate.resources
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\obj\Debug\SocialWeb.Migrations.AddLoginAndPasswordToCustomers.resources
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\obj\Debug\SocialWeb.csproj.GenerateResource.Cache
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\obj\Debug\SocialWeb.dll
+c:\users\анюта\documents\visual studio 2015\Projects\SocialWeb\SocialWeb\obj\Debug\SocialWeb.pdb
+C:\Users\Анюта\Documents\Visual Studio 2015\Projects\SocialWeb\SocialWeb\obj\Debug\SocialWeb.Migrations.SW1.resources
+C:\Users\Анюта\Documents\Visual Studio 2015\Projects\SocialWeb\SocialWeb\obj\Debug\SocialWeb.csprojResolveAssemblyReference.cache
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\roslyn\csc.exe
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -17,29 +64,9 @@ C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\SocialWeb.pdb
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Antlr3.Runtime.dll
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\EntityFramework.dll
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\EntityFramework.SqlServer.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.AI.Web.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.ApplicationInsights.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.AspNet.Identity.Owin.dll
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.Owin.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.Owin.Security.Cookies.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.Owin.Security.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.Owin.Security.Facebook.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.Owin.Security.Google.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.Owin.Security.OAuth.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.Owin.Security.Twitter.dll
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Newtonsoft.Json.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Owin.dll
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\System.Web.Helpers.dll
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\System.Web.Mvc.dll
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\System.Web.Optimization.dll
@@ -48,11 +75,8 @@ C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\System.Web.WebPag
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\System.Web.WebPages.dll
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\System.Web.WebPages.Razor.dll
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\WebGrease.dll
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.AI.Web.xml
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\EntityFramework.xml
+C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\EntityFramework.SqlServer.xml
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\System.Web.Helpers.xml
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\System.Web.Mvc.xml
@@ -63,23 +87,10 @@ C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\System.Web.WebPag
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\System.Web.WebPages.Razor.xml
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Antlr3.Runtime.pdb
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Newtonsoft.Json.xml
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\EntityFramework.xml
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\EntityFramework.SqlServer.xml
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.Owin.xml
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.Owin.Security.xml
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.Owin.Security.Facebook.xml
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.Owin.Security.Cookies.xml
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.Owin.Security.Google.xml
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.Owin.Security.Twitter.xml
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.csprojResolveAssemblyReference.cache
+C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.Migrations.InitialCreate.resources
+C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.Migrations.AddLoginAndPasswordToCustomers.resources
+C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.Migrations.SW1.resources
+C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.csproj.GenerateResource.Cache
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.dll
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.pdb
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.Migrations.SocialWeb1.resources
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.csproj.GenerateResource.Cache
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.Migrations.SocialWeb11.resources
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.csprojResolveAssemblyReference.cache

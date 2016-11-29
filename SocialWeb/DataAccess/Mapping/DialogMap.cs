@@ -14,7 +14,7 @@ namespace SocialWeb.DataAccess.Mapping
             ToTable("Dialogs");
             HasKey(x => x.Id);
             HasMany(x => x.Messages);
-            HasRequired(x => x.Users);
+            //HasRequired(x => x.Users);
         }
     }
 }

@@ -14,12 +14,17 @@ namespace SocialWeb.DataAccess
         public DbSet<Message> Messages { get; set; }
         public DbSet<Dialog> Dialogs { get; set; }
 
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new MessageMap());
             modelBuilder.Configurations.Add(new UserMap());
             modelBuilder.Configurations.Add(new DialogMap());
             base.OnModelCreating(modelBuilder);
+        }
+        public SocialWebContext() : base("DefaultConnection")
+        {
+
         }
     }
 }

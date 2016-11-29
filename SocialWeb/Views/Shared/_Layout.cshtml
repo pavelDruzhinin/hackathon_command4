@@ -17,23 +17,59 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Social Web", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Пользователи", "Index", "Users")</li>
                 </ul>
-                @Html.Partial("_LoginPartial")
+                @*@Html.Partial("_LoginPartial")*@
             </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    using (Html.BeginForm("Logout", "Account", FormMethod.Post, new { id = "logoutForm" }))
+                    {
+                        @Html.AntiForgeryToken()
+                    }
+                    <li>
+                        <a href="javascript:document.getElementById('logoutForm').submit()">Выйти</a>
+                    </li>
+                }
+                else
+                {
+                    <li>
+                        <form class="form-inline" action="/Account/Login" method="POST">
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary()
+                            <div class="form-group">
+                                <label for="Login">Логин</label>
+                                <input type="text" id="Login" Name="Login">
+                            </div>
+                            <div class="form-group">
+                                <label for="Password">Пароль</label>
+                                <input type="password" id="Password" Name="Password">
+                            </div>
+                            <button type="submit" class="btn btn-default">Войти</button>
+                        </form>
+                    </li>
+                    @*<li>@Html.ActionLink("Вход", "Login", "Account")</li>*@
+                    <li>@Html.ActionLink("Регистрация", "Create", "Users")</li>
+                }
+            </ul>
+        
         </div>
     </div>
     <div class="container body-content">
         @RenderBody()
         <hr />
+        <br />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - SocialWeb</p>
         </footer>
     </div>
 
