@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Social-Web</title>
+
+    
+    <link href="~/Content/style-index.css" rel="stylesheet">
+    <link href="~/Content/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/Content/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <div id="includeTopBar">
+
+            <div class="navbar navbar-inverse navbar-static-top menu">
+
+                <div class="container">
+                    
+
+                    <!-- Название ресурса -->
+                    <div class="navbar-header navbar-collapse">
+                        <p class="title-header">Social-Web</p>                        
+                    </div>
+
+                    <!-- Формы для ввода данных + регистрация -->
+                    <div id="navbar" class="collapse navbar-collapse menu-item ">
+
+                        <form class="navbar-form navbar-right" action="/Account/Login" method="POST">
+                        @Html.AntiForgeryToken()
+                        @Html.ValidationSummary()
+                            <div class="form-group">
+                                <input type="text" placeholder="Login" class="form-control" id="Login" Name="Login">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" placeholder="Password" class="form-control "  id="Password" Name="Password">
+                            </div>
+
+                            @*<button type="submit" class="btn btn-success">Войти</button>*@
+
+                            <a class="btn btn-success" href="http://localhost:52697/Home/myPage" role="button"> Авторизация </a>
+
+                            @*<button type="submit" class="btn btn-danger btn-lg">Регистрация</button>*@
+
+                            <a class="btn btn-danger btn-lg" href="http://localhost:52697/Home/Reg" role="button">Регистрация</a>
+
+                            
+
+                            <!-- <input value="Авторизация" type="submit" class="btn btn-success" href="messages.html">-->                   
+
+                            @*<a class="btn btn-danger btn-lg" href="reg.html" role="button"> Регистрация </a>*@
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="carousel">
+
+            @*Вставляем основную часть страницы*@ 
+
+            @RenderBody() 
+            
+        </div>
+
+        @*переход на домашнюю/главную страницу*@
+        <div id="includeGetHome">            
+            <div class="getHome">
+                <span class="fa-stack fa-3x ">
+                    
+                    <a href="http://localhost:52697/Home/Index" class="fa fa-circle fa-stack-2x " aria-hidden="true"></i> </a>
+                    <a href="http://localhost:52697/Home/Index"> <i class="fa fa-home  fa-stack-1x fa-inverse" aria-hidden="true" href="index.html"></i></a>
+                </span>
+            </div>
+        </div>
+
+        
+        
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+
+
+    <!-- Дополнительные функции для адаптивности -->
+    <script type="text/javascript">
+     $(document).ready(function(){
+        var windowWidth = $(window).width();
+        if(windowWidth < 1200) $(".title-header").hide();
+        else $(".title-header").show();
+
+        $(window).resize(function(){
+            var windowWidth = $(window).width();
+            if(windowWidth < 1200) $(".title-header").hide();
+            else $(".title-header").show();
+
+            if (windowWidth < 740) $(".navbar-form.navbar-right").addClass("scroll");
+            else $(".navbar-form.navbar-right").removeClass("scroll");
+        });
+
+
+     });
+    </script>
+
+</body>
+</html>

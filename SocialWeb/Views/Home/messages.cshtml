@@ -1,0 +1,124 @@
+﻿@*@model SocialWeb.Models.Message*@
+
+@{
+    ViewBag.Title = "messages";
+}
+
+<div class="wrapper">
+    <div class="container-fluid">
+        <div class="row">
+
+
+            <div class="col-sm-offset-1 col-sm-4">
+
+
+                <div class="messages-area form-signin table-responsive">
+
+                    <h6>Диалоги</h6>
+
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th class="col-xs-2">Перейти к диалогу с..</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Пользователь1</td>
+                            </tr>
+                            <tr>
+                                <td>Пользователь2</td>
+                            </tr>
+                            <tr>
+                                <td>Пользователь3</td>
+                            </tr>
+                            <tr>
+                                <td>Пользователь4</td>
+                            </tr>
+                            <tr>
+                                <td>Пользователь5</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+            <div class="col-sm-offset-1 col-sm-5">
+
+               
+                <div class="messages-area form-signin table-responsive">
+
+                    <h6>Сообщения</h6>
+
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th class="col-xs-2">Дата</th>
+                                <th class="col-xs-8">Текст</th>
+                                <th class="col-xs-2">От кого</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>11.10.2016 20.20</td>
+                                <td>Привет</td>
+                                <td>Входящее</td>
+                            </tr>
+                            <tr>
+                                <td>11.10.2016 20.20</td>
+                                <td>Проверка, каак же будет оторбражаться длинное сообщение.. Ну-ка ну-ка ну-ка</td>
+                                <td>Входящее</td>
+                            </tr>
+                            <tr>
+                                <td>11.10.2016 20.20</td>
+                                <td>Привет</td>
+                                <td>Исходящее</td>
+                            </tr>
+                            <tr>
+                                <td>11.10.2016 20.20</td>
+                                <td>Все круто</td>
+                                <td>Исходящее</td>
+                            </tr>
+                            <tr>
+                                <td>11.10.2016 20.20</td>
+                                <td>Как сам?</td>
+                                <td>Исходящее</td>
+                            </tr>
+                            <tr>
+                                <td>11.10.2016 20.20</td>
+                                <td>Как сам?</td>
+                                <td>Исходящее</td>
+                            </tr>
+                            <tr>
+                                <td>11.10.2016 20.20</td>
+                                <td>Как сам?</td>
+                                <td>Исходящее</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                    <div class="container-fluid sender">
+                        <form name="sendText" method="post">
+
+                            <div class="row">
+                                <div class="col-sm-offset-1 col-sm-7 sendMessage">
+                                    <textarea type="text" class="form-control" id="send" placeholder="Ваше сообщение" rows="3"></textarea>
+                                </div>
+
+                                <div class="col-sm-2 sendMessage">
+                                    <button type="submit" class="btn btn-default btn-lg">Отправить</button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
