@@ -6,114 +6,112 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using SocialWeb.Models;
 using SocialWeb.DataAccess;
+using SocialWeb.Models;
 
 namespace SocialWeb.Controllers
 {
-    public class UsersController : Controller
+    public class MessagesController : Controller
     {
         private SocialWebContext db = new SocialWebContext();
 
-        // GET: Users
+        // GET: Messages
         public ActionResult Index()
         {
-            return View(db.Users.ToList());
+            return View(db.Messages.ToList());
         }
 
-        // GET: Users/Details/5
+        // GET: Messages/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            User user = db.Users.Find(id);
-            if (user == null)
+            Message message = db.Messages.Find(id);
+            if (message == null)
             {
                 return HttpNotFound();
             }
-            return View(user);
+            return View(message);
         }
 
-        // GET: Users/Create
+        // GET: Messages/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Users/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Messages/Create
+        // Чтобы защититься от атак чрезмерной передачи данных, включите определенные свойства, для которых следует установить привязку. Дополнительные 
+        // сведения см. в статье http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,Login,Password,Email,Birthday")] User user )
-
+        public ActionResult Create([Bind(Include = "Id,UserId,DialogId,Date,Text")] Message message)
         {
             if (ModelState.IsValid)
             {
-                db.Users.Add(user);
+                db.Messages.Add(message);
                 db.SaveChanges();
-
-                return RedirectToAction("login", "AccountController");
+                return RedirectToAction("Index");
             }
 
-            return View(user);
+            return View(message);
         }
 
-        // GET: Users/Edit/5
+        // GET: Messages/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            User user = db.Users.Find(id);
-            if (user == null)
+            Message message = db.Messages.Find(id);
+            if (message == null)
             {
                 return HttpNotFound();
             }
-            return View(user);
+            return View(message);
         }
 
-        // POST: Users/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Messages/Edit/5
+        // Чтобы защититься от атак чрезмерной передачи данных, включите определенные свойства, для которых следует установить привязку. Дополнительные 
+        // сведения см. в статье http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,Login,Password,Email,Birthday")] User user)
+        public ActionResult Edit([Bind(Include = "Id,UserId,DialogId,Date,Text")] Message message)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(user).State = EntityState.Modified;
+                db.Entry(message).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(user);
+            return View(message);
         }
 
-        // GET: Users/Delete/5
+        // GET: Messages/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            User user = db.Users.Find(id);
-            if (user == null)
+            Message message = db.Messages.Find(id);
+            if (message == null)
             {
                 return HttpNotFound();
             }
-            return View(user);
+            return View(message);
         }
 
-        // POST: Users/Delete/5
+        // POST: Messages/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            User user = db.Users.Find(id);
-            db.Users.Remove(user);
+            Message message = db.Messages.Find(id);
+            db.Messages.Remove(message);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

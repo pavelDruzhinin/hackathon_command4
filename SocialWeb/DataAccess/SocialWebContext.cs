@@ -17,10 +17,10 @@ namespace SocialWeb.DataAccess
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Configurations.Add(new MessageMap());
-            modelBuilder.Configurations.Add(new UserMap());
-            modelBuilder.Configurations.Add(new DialogMap());
-            base.OnModelCreating(modelBuilder);
+            //modelBuilder.Configurations.Add(new MessageMap());
+            //modelBuilder.Configurations.Add(new UserMap());
+            //modelBuilder.Configurations.Add(new DialogMap());
+            //base.OnModelCreating(modelBuilder);
         }
         public SocialWebContext() : base("DefaultConnection")
         {

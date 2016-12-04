@@ -2,6 +2,9 @@
 using System.Web.Security;
 using SocialWeb.Services;
 using SocialWeb.ViewModels;
+using SocialWeb.Models;
+using SocialWeb.DataAccess;
+using System.Linq;
 
 namespace SocialWeb.Controllers
 {
@@ -28,7 +31,9 @@ namespace SocialWeb.Controllers
             if (_accountService.Login(model.Login, model.Password))
             {
                 FormsAuthentication.SetAuthCookie(model.Login, true);
-                return RedirectToAction("Index", "Home");
+                var db = new SocialWebContext();
+                User user = db.Users.FirstOrDefault(x => x.Login == model.Login);
+                return RedirectToAction("Details", "Users", new { id = user.Id });
             }
 
             ModelState.AddModelError("", "Имя пользователя и пароль были введены неверно. Либо ваш пользователь не зарегистрирован.");
