@@ -87,10 +87,10 @@ C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\System.Web.WebPag
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\System.Web.WebPages.Razor.xml
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Antlr3.Runtime.pdb
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\bin\Newtonsoft.Json.xml
-C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.csprojResolveAssemblyReference.cache
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.Migrations.InitialCreate.resources
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.Migrations.AddLoginAndPasswordToCustomers.resources
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.Migrations.SW1.resources
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.csproj.GenerateResource.Cache
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.dll
 C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.pdb
+C:\Users\Анюта\Documents\hackathon_command4\SocialWeb\obj\Debug\SocialWeb.csprojResolveAssemblyReference.cache

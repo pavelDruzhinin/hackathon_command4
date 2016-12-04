@@ -126,5 +126,31 @@ namespace SocialWeb.Controllers
             }
             base.Dispose(disposing);
         }
+        public ActionResult Checking(int id)
+        {
+            var defaultUser = db.Users.FirstOrDefault(x => x.Login == User.Identity.Name);
+            var dialogs = db.Dialogs.ToList();
+            foreach (var j in dialogs)
+            {
+                var users = j.Users.ToList();
+                foreach (var i in users)
+                {
+                    if (i.Id == id)
+                    {
+                        foreach (var k in users)
+                        {
+                            if (k.Id == defaultUser.Id)
+                            {
+                                return RedirectToAction("Details", "Dialogs", new { id = j.Id });
+                            }
+                        }
+                    }
+                }
+                
+            }
+            var dialogsController = new DialogsController();
+            
+            return dialogsController.Create();
+        }
     }
 }
