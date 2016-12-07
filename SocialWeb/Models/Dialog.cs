@@ -11,5 +11,7 @@ namespace SocialWeb.Models
         public int UserId { get; set; }
         public List<Message> Messages { get; set; }
         public List<User> Users { get; set; }
+        //public User User { get; set; }
+        //public Message Message { get; set; }
     }
 }

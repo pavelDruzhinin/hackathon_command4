@@ -148,9 +148,27 @@ namespace SocialWeb.Controllers
                 }
                 
             }
-            var dialogsController = new DialogsController();
-            
-            return dialogsController.Create();
-        }
+            //var dialogsController = new DialogsController()
+            var dialog = new Dialog
+            {
+                UserId = defaultUser.Id,
+                Users = new List<User>
+                    {
+                        new User { Id = defaultUser.Id },
+                        new User { Id = id }
+                    }
+
+                //OrderPositions = new List<OrderPosition>
+                //    {
+                //        new OrderPosition { Count = 1, Product = product }
+                //    }
+            };
+            db.Dialogs.Add(dialog);
+            db.SaveChanges();
+
+            return RedirectToAction("Index");
+
+            //return dialogsController(Index);
+    }
     }
 }

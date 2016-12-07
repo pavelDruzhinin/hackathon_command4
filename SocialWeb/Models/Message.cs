@@ -15,5 +15,8 @@ namespace SocialWeb.Models
         [DisplayFormat(DataFormatString = "{0:dd.MM.yyyy H:mm:ss}", ApplyFormatInEditMode = true)]
         public DateTime Date { get; set; }
         public string Text { get; set; }
+
+        //public Dialog Dialog { get; set; }
+        //public User user { get; set; }
     }
 }
