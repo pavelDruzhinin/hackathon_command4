@@ -29,50 +29,80 @@
 
             <div class="navbar navbar-inverse navbar-static-top menu">
 
-                <div class="container">
-                    
+                <div class="container">               
 
-                    <!-- Название ресурса -->
-                    <div class="navbar-header navbar-collapse">
-                        <p class="title-header">Social-Web</p>                        
-                    </div>
+
+
 
                     <!-- Формы для ввода данных + регистрация -->
                     <div id="navbar" class="collapse navbar-collapse menu-item ">
-
-                        <form class="navbar-form navbar-right" action="/Account/Login" method="POST">
-                        @Html.AntiForgeryToken()
-                        @Html.ValidationSummary()
-                            <div class="form-group">
-                                <input type="text" placeholder="Login" class="form-control" id="Login" Name="Login">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <!-- Название ресурса -->
+                            <div class="navbar-header kostbll">
+                                <p class="title-header">Social-Web</p>
                             </div>
 
-                            <div class="form-group">
-                                <input type="text" placeholder="Password" class="form-control "  id="Password" Name="Password">
-                            </div>
 
-                            @*<button type="submit" class="btn btn-success">Войти</button>*@
-
-                            <a class="btn btn-success" href="http://localhost:52697/Home/myPage" role="button"> Авторизация </a>
-
-                            @*<button type="submit" class="btn btn-danger btn-lg">Регистрация</button>*@
-
-                            <a class="btn btn-danger btn-lg" href="http://localhost:52697/Home/Reg" role="button">Регистрация</a>
-
+                            using (Html.BeginForm("Logout", "Account", FormMethod.Post, new { id = "logoutForm" }))
+                            {
+                                @Html.AntiForgeryToken()
+                            }
                             
+                            <div class="menu-item navbar-right">
+                                <a class="btn btn-danger btn-lg " href="javascript:document.getElementById('logoutForm').submit()">Выйти</a>
 
-                            <!-- <input value="Авторизация" type="submit" class="btn btn-success" href="messages.html">-->                   
+                            </div>
 
-                            @*<a class="btn btn-danger btn-lg" href="reg.html" role="button"> Регистрация </a>*@
-                        </form>
-                    </div>
+
+                        }
+                        else
+                        {
+                                <!-- Название ресурса -->
+                                <div class="navbar-header navbar-collapse">
+                                    <p class="title-header">Social-Web</p>
+                                </div>
+
+                                <form class="navbar-form navbar-right" action="/Account/Login" method="POST">
+                                    @Html.AntiForgeryToken()
+                                    @Html.ValidationSummary()
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Login" class="form-control" id="Login" Name="Login">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="password" placeholder="Password" class="form-control " id="Password" Name="Password">
+                                    </div>
+
+                                    <button type="submit" class="btn btn-success">Войти</button>
+
+                                    <a class="btn btn-danger btn-lg" href="http://localhost:52697/Users/Create" role="button">Регистрация</a>
+
+                                    @*<button type="submit" class="btn btn-danger btn-lg">Регистрация</button>*@
+
+                                    @*<button type="submit" class="btn btn-success">Войти</button>*@
+
+                                    @*<a class="btn btn-success" href="http://localhost:52697/Home/myPage" role="button"> Авторизация </a>*@
+
+                                    @*<button type="submit" class="btn btn-danger btn-lg">Регистрация</button>*@
+
+                                   
+
+                        
+
+                                    <!-- <input value="Авторизация" type="submit" class="btn btn-success" href="messages.html">-->
+                                    @*<a class="btn btn-danger btn-lg" href="reg.html" role="button"> Регистрация </a>*@
+                                </form>
+
+                        }
+</div>
                 </div>
             </div>
         </div>
 
 
 
-        <div id="carousel">
+        <div id="main">
 
             @*Вставляем основную часть страницы*@ 
 
@@ -84,9 +114,17 @@
         <div id="includeGetHome">            
             <div class="getHome">
                 <span class="fa-stack fa-3x ">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a href="http://localhost:52697/Users/Details/1"> <i class="fa fa-circle fa-stack-2x " aria-hidden="true"></i> </a>
+                        <a href="http://localhost:52697/Users/Details/1"> <i class="fa fa-home  fa-stack-1x fa-inverse" aria-hidden="true" ></i></a>
+                    }
+                    else
+                    {
+                        <a href="http://localhost:52697/Home/Index"> <i class="fa fa-circle fa-stack-2x " aria-hidden="true"></i> </a>
+                        <a href="http://localhost:52697/Home/Index"> <i class="fa fa-home  fa-stack-1x fa-inverse" aria-hidden="true"></i></a>
+                    }
                     
-                    <a href="http://localhost:52697/Home/Index" class="fa fa-circle fa-stack-2x " aria-hidden="true"></i> </a>
-                    <a href="http://localhost:52697/Home/Index"> <i class="fa fa-home  fa-stack-1x fa-inverse" aria-hidden="true" href="index.html"></i></a>
                 </span>
             </div>
         </div>

@@ -17,10 +17,10 @@ namespace SocialWeb.Controllers
             _accountService = new AccountService();
         }
 
-        [AllowAnonymous]
+        //[AllowAnonymous]
         public ActionResult Login()
         {
-            return View();
+            return RedirectToAction("Index", "Home");
         }
 
         [HttpPost]
